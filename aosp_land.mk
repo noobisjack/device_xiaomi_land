@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Yet Another AOSP Project stuff
+# Inherit some common Yet Another PixelExtended stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_ARCH := arm64
@@ -27,10 +27,9 @@ TARGET_ARCH := arm64
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# PixelPlusUI Official Stuff
-CUSTOM_BUILD_TYPE := OFFICIAL
+# PixelExtended Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 

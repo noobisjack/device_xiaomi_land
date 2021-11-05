@@ -36,10 +36,3 @@ persist.device.config.runtime_native.uasp_pool_enabled=true
 
 # WiFi
 persist.mm.sta.enable=0
-
-# PPUI specific props
-ro.ppui.device_name=Redmi 3S
-ro.ppui.version=3.10
-ro.ppui.version_code=Azrael
-ro.ppui.is_official=true
-ro.ppui.maintainer_name=MarvelMathesh
